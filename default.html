@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <title>About Alyssa</title>
 	
-	<link href="style.css" rel="stylesheet" type="text/css">
-	<script src="javascript.js"></script>
+	<link href="../style.css" rel="stylesheet" type="text/css">
+	<script src="../javascript.js"></script>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script>
@@ -25,6 +25,17 @@ $(document).ready(function(){
 });
 </script>
 	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("h2").hover(function(){
+        $(this).css("background-color", "yellow");
+        }, function(){
+        $(this).css("background-color", "pink");
+    });
+});
+</script>
+	
 	
 </head>
 	
@@ -40,9 +51,9 @@ $(document).ready(function(){
 		</header>
 		<nav class="nav">
 			<ul>
-				<li class="link"><a href="home.html">Home</a></li>
-				<li class="link"><a href="about.html">About</a></li>
-				<li class="link"><a href="contact.html">Contact</a></li>
+				<li class="link"><a href="../home.html">Home</a></li>
+				<li class="link"><a href="../about.html">About</a></li>
+				<li class="link"><a href="../contact.html">Contact</a></li>
 			</ul>
 		</nav>
 		</div>
